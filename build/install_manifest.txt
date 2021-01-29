@@ -1,0 +1,9 @@
+/home/stefan/rostest_ws/install/_setup_util.py
+/home/stefan/rostest_ws/install/env.sh
+/home/stefan/rostest_ws/install/setup.bash
+/home/stefan/rostest_ws/install/local_setup.bash
+/home/stefan/rostest_ws/install/setup.sh
+/home/stefan/rostest_ws/install/local_setup.sh
+/home/stefan/rostest_ws/install/setup.zsh
+/home/stefan/rostest_ws/install/local_setup.zsh
+/home/stefan/rostest_ws/install/.rosinstall
