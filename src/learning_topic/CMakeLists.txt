@@ -169,6 +169,14 @@ target_link_libraries(velocity_publisher ${catkin_LIBRARIES})
 add_executable(pose_subscriber src/pose_subscriber.cpp)
 target_link_libraries(pose_subscriber ${catkin_LIBRARIES})
 
+add_executable(person_publisher src/person_publisher.cpp)
+target_link_libraries(person_publisher ${catkin_LIBRARIES})
+add_dependencies(person_publisher ${PROJECT_NAME}_generate_messages_cpp)
+
+add_executable(person_subscriber src/person_subscriber.cpp)
+target_link_libraries(person_subscriber ${catkin_LIBRARIES})
+add_dependencies(person_subscriber ${PROJECT_NAME}_generate_messages_cpp)
+
 #############
 ## Install ##
 #############
