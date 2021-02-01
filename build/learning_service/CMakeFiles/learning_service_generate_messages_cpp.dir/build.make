@@ -61,7 +61,7 @@ learning_service/CMakeFiles/learning_service_generate_messages_cpp: /home/stefan
 /home/stefan/rostest_ws/devel/include/learning_service/Person.h: /opt/ros/melodic/share/gencpp/msg.h.template
 /home/stefan/rostest_ws/devel/include/learning_service/Person.h: /opt/ros/melodic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stefan/rostest_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from learning_service/Person.srv"
-	cd /home/stefan/rostest_ws/src/learning_service && /home/stefan/rostest_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/stefan/rostest_ws/src/learning_service/srv/Person.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_service -o /home/stefan/rostest_ws/devel/include/learning_service -e /opt/ros/melodic/share/gencpp/cmake/..
+	cd /home/stefan/rostest_ws/src/learning_service && /home/stefan/rostest_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/stefan/rostest_ws/src/learning_service/srv/Person.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_service -o /home/stefan/rostest_ws/devel/include/learning_service -e /opt/ros/melodic/share/gencpp/cmake/..
 
 learning_service_generate_messages_cpp: learning_service/CMakeFiles/learning_service_generate_messages_cpp
 learning_service_generate_messages_cpp: /home/stefan/rostest_ws/devel/include/learning_service/Person.h

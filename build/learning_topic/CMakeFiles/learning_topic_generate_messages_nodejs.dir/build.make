@@ -59,7 +59,7 @@ learning_topic/CMakeFiles/learning_topic_generate_messages_nodejs: /home/stefan/
 /home/stefan/rostest_ws/devel/share/gennodejs/ros/learning_topic/msg/Person.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/stefan/rostest_ws/devel/share/gennodejs/ros/learning_topic/msg/Person.js: /home/stefan/rostest_ws/src/learning_topic/msg/Person.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stefan/rostest_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from learning_topic/Person.msg"
-	cd /home/stefan/rostest_ws/build/learning_topic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/stefan/rostest_ws/src/learning_topic/msg/Person.msg -Ilearning_topic:/home/stefan/rostest_ws/src/learning_topic/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_topic -o /home/stefan/rostest_ws/devel/share/gennodejs/ros/learning_topic/msg
+	cd /home/stefan/rostest_ws/build/learning_topic && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/stefan/rostest_ws/src/learning_topic/msg/Person.msg -Ilearning_topic:/home/stefan/rostest_ws/src/learning_topic/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_topic -o /home/stefan/rostest_ws/devel/share/gennodejs/ros/learning_topic/msg
 
 learning_topic_generate_messages_nodejs: learning_topic/CMakeFiles/learning_topic_generate_messages_nodejs
 learning_topic_generate_messages_nodejs: /home/stefan/rostest_ws/devel/share/gennodejs/ros/learning_topic/msg/Person.js

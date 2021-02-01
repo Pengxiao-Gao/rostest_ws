@@ -53,23 +53,23 @@ CMAKE_BINARY_DIR = /home/stefan/rostest_ws/build
 # Include the progress variables for this target.
 include learning_service/CMakeFiles/learning_service_generate_messages_py.dir/progress.make
 
-learning_service/CMakeFiles/learning_service_generate_messages_py: /home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv/_Person.py
-learning_service/CMakeFiles/learning_service_generate_messages_py: /home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv/__init__.py
+learning_service/CMakeFiles/learning_service_generate_messages_py: /home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv/_Person.py
+learning_service/CMakeFiles/learning_service_generate_messages_py: /home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv/__init__.py
 
 
-/home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv/_Person.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv/_Person.py: /home/stefan/rostest_ws/src/learning_service/srv/Person.srv
+/home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv/_Person.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv/_Person.py: /home/stefan/rostest_ws/src/learning_service/srv/Person.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stefan/rostest_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV learning_service/Person"
-	cd /home/stefan/rostest_ws/build/learning_service && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/stefan/rostest_ws/src/learning_service/srv/Person.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_service -o /home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv
+	cd /home/stefan/rostest_ws/build/learning_service && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/stefan/rostest_ws/src/learning_service/srv/Person.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_service -o /home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv
 
-/home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv/__init__.py: /home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv/_Person.py
+/home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv/__init__.py: /home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv/_Person.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stefan/rostest_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for learning_service"
-	cd /home/stefan/rostest_ws/build/learning_service && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv --initpy
+	cd /home/stefan/rostest_ws/build/learning_service && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv --initpy
 
 learning_service_generate_messages_py: learning_service/CMakeFiles/learning_service_generate_messages_py
-learning_service_generate_messages_py: /home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv/_Person.py
-learning_service_generate_messages_py: /home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv/__init__.py
+learning_service_generate_messages_py: /home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv/_Person.py
+learning_service_generate_messages_py: /home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv/__init__.py
 learning_service_generate_messages_py: learning_service/CMakeFiles/learning_service_generate_messages_py.dir/build.make
 
 .PHONY : learning_service_generate_messages_py

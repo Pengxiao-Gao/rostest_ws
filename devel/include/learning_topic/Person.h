@@ -121,16 +121,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::learning_topic::Person_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::learning_topic::Person_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::learning_topic::Person_<ContainerAllocator> >
   : TrueType
   { };
@@ -138,6 +128,16 @@ struct IsMessage< ::learning_topic::Person_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::learning_topic::Person_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::learning_topic::Person_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::learning_topic::Person_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

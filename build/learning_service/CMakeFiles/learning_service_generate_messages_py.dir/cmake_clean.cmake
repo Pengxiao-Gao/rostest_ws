@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/learning_service_generate_messages_py"
-  "/home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv/_Person.py"
-  "/home/stefan/rostest_ws/devel/lib/python2.7/dist-packages/learning_service/srv/__init__.py"
+  "/home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv/_Person.py"
+  "/home/stefan/rostest_ws/devel/lib/python3/dist-packages/learning_service/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -60,11 +60,11 @@ learning_service/CMakeFiles/learning_service_generate_messages_eus: /home/stefan
 /home/stefan/rostest_ws/devel/share/roseus/ros/learning_service/srv/Person.l: /opt/ros/melodic/lib/geneus/gen_eus.py
 /home/stefan/rostest_ws/devel/share/roseus/ros/learning_service/srv/Person.l: /home/stefan/rostest_ws/src/learning_service/srv/Person.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stefan/rostest_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from learning_service/Person.srv"
-	cd /home/stefan/rostest_ws/build/learning_service && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/stefan/rostest_ws/src/learning_service/srv/Person.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_service -o /home/stefan/rostest_ws/devel/share/roseus/ros/learning_service/srv
+	cd /home/stefan/rostest_ws/build/learning_service && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/stefan/rostest_ws/src/learning_service/srv/Person.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_service -o /home/stefan/rostest_ws/devel/share/roseus/ros/learning_service/srv
 
 /home/stefan/rostest_ws/devel/share/roseus/ros/learning_service/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stefan/rostest_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for learning_service"
-	cd /home/stefan/rostest_ws/build/learning_service && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/stefan/rostest_ws/devel/share/roseus/ros/learning_service learning_service std_msgs
+	cd /home/stefan/rostest_ws/build/learning_service && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/stefan/rostest_ws/devel/share/roseus/ros/learning_service learning_service std_msgs
 
 learning_service_generate_messages_eus: learning_service/CMakeFiles/learning_service_generate_messages_eus
 learning_service_generate_messages_eus: /home/stefan/rostest_ws/devel/share/roseus/ros/learning_service/srv/Person.l

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/stefan/rostest_ws/build
 include learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person.dir/progress.make
 
 learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person:
-	cd /home/stefan/rostest_ws/build/learning_topic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py learning_topic /home/stefan/rostest_ws/src/learning_topic/msg/Person.msg 
+	cd /home/stefan/rostest_ws/build/learning_topic && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py learning_topic /home/stefan/rostest_ws/src/learning_topic/msg/Person.msg 
 
 _learning_topic_generate_messages_check_deps_Person: learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person
 _learning_topic_generate_messages_check_deps_Person: learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person.dir/build.make

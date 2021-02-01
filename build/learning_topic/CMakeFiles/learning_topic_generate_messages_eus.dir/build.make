@@ -60,11 +60,11 @@ learning_topic/CMakeFiles/learning_topic_generate_messages_eus: /home/stefan/ros
 /home/stefan/rostest_ws/devel/share/roseus/ros/learning_topic/msg/Person.l: /opt/ros/melodic/lib/geneus/gen_eus.py
 /home/stefan/rostest_ws/devel/share/roseus/ros/learning_topic/msg/Person.l: /home/stefan/rostest_ws/src/learning_topic/msg/Person.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stefan/rostest_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from learning_topic/Person.msg"
-	cd /home/stefan/rostest_ws/build/learning_topic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/stefan/rostest_ws/src/learning_topic/msg/Person.msg -Ilearning_topic:/home/stefan/rostest_ws/src/learning_topic/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_topic -o /home/stefan/rostest_ws/devel/share/roseus/ros/learning_topic/msg
+	cd /home/stefan/rostest_ws/build/learning_topic && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/stefan/rostest_ws/src/learning_topic/msg/Person.msg -Ilearning_topic:/home/stefan/rostest_ws/src/learning_topic/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_topic -o /home/stefan/rostest_ws/devel/share/roseus/ros/learning_topic/msg
 
 /home/stefan/rostest_ws/devel/share/roseus/ros/learning_topic/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stefan/rostest_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for learning_topic"
-	cd /home/stefan/rostest_ws/build/learning_topic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/stefan/rostest_ws/devel/share/roseus/ros/learning_topic learning_topic std_msgs
+	cd /home/stefan/rostest_ws/build/learning_topic && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/stefan/rostest_ws/devel/share/roseus/ros/learning_topic learning_topic std_msgs
 
 learning_topic_generate_messages_eus: learning_topic/CMakeFiles/learning_topic_generate_messages_eus
 learning_topic_generate_messages_eus: /home/stefan/rostest_ws/devel/share/roseus/ros/learning_topic/msg/Person.l

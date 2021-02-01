@@ -59,7 +59,7 @@ learning_service/CMakeFiles/learning_service_generate_messages_nodejs: /home/ste
 /home/stefan/rostest_ws/devel/share/gennodejs/ros/learning_service/srv/Person.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/stefan/rostest_ws/devel/share/gennodejs/ros/learning_service/srv/Person.js: /home/stefan/rostest_ws/src/learning_service/srv/Person.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stefan/rostest_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from learning_service/Person.srv"
-	cd /home/stefan/rostest_ws/build/learning_service && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/stefan/rostest_ws/src/learning_service/srv/Person.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_service -o /home/stefan/rostest_ws/devel/share/gennodejs/ros/learning_service/srv
+	cd /home/stefan/rostest_ws/build/learning_service && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/stefan/rostest_ws/src/learning_service/srv/Person.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_service -o /home/stefan/rostest_ws/devel/share/gennodejs/ros/learning_service/srv
 
 learning_service_generate_messages_nodejs: learning_service/CMakeFiles/learning_service_generate_messages_nodejs
 learning_service_generate_messages_nodejs: /home/stefan/rostest_ws/devel/share/gennodejs/ros/learning_service/srv/Person.js

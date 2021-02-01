@@ -60,7 +60,7 @@ learning_topic/CMakeFiles/learning_topic_generate_messages_cpp: /home/stefan/ros
 /home/stefan/rostest_ws/devel/include/learning_topic/Person.h: /home/stefan/rostest_ws/src/learning_topic/msg/Person.msg
 /home/stefan/rostest_ws/devel/include/learning_topic/Person.h: /opt/ros/melodic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stefan/rostest_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from learning_topic/Person.msg"
-	cd /home/stefan/rostest_ws/src/learning_topic && /home/stefan/rostest_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/stefan/rostest_ws/src/learning_topic/msg/Person.msg -Ilearning_topic:/home/stefan/rostest_ws/src/learning_topic/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_topic -o /home/stefan/rostest_ws/devel/include/learning_topic -e /opt/ros/melodic/share/gencpp/cmake/..
+	cd /home/stefan/rostest_ws/src/learning_topic && /home/stefan/rostest_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/stefan/rostest_ws/src/learning_topic/msg/Person.msg -Ilearning_topic:/home/stefan/rostest_ws/src/learning_topic/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p learning_topic -o /home/stefan/rostest_ws/devel/include/learning_topic -e /opt/ros/melodic/share/gencpp/cmake/..
 
 learning_topic_generate_messages_cpp: learning_topic/CMakeFiles/learning_topic_generate_messages_cpp
 learning_topic_generate_messages_cpp: /home/stefan/rostest_ws/devel/include/learning_topic/Person.h

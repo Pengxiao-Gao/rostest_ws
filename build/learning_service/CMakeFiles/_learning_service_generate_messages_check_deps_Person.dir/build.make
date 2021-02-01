@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/stefan/rostest_ws/build
 include learning_service/CMakeFiles/_learning_service_generate_messages_check_deps_Person.dir/progress.make
 
 learning_service/CMakeFiles/_learning_service_generate_messages_check_deps_Person:
-	cd /home/stefan/rostest_ws/build/learning_service && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py learning_service /home/stefan/rostest_ws/src/learning_service/srv/Person.srv 
+	cd /home/stefan/rostest_ws/build/learning_service && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py learning_service /home/stefan/rostest_ws/src/learning_service/srv/Person.srv 
 
 _learning_service_generate_messages_check_deps_Person: learning_service/CMakeFiles/_learning_service_generate_messages_check_deps_Person
 _learning_service_generate_messages_check_deps_Person: learning_service/CMakeFiles/_learning_service_generate_messages_check_deps_Person.dir/build.make
