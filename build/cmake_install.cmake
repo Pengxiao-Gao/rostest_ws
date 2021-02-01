@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/stefan/rostest_ws/build/gtest/cmake_install.cmake")
   include("/home/stefan/rostest_ws/build/geometry2/geometry2/cmake_install.cmake")
+  include("/home/stefan/rostest_ws/build/learning_launch/cmake_install.cmake")
   include("/home/stefan/rostest_ws/build/geometry2/tf2_msgs/cmake_install.cmake")
   include("/home/stefan/rostest_ws/build/geometry2/tf2/cmake_install.cmake")
   include("/home/stefan/rostest_ws/build/geometry2/tf2_bullet/cmake_install.cmake")

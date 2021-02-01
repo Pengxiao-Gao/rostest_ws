@@ -6,6 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("geometry2/geometry2")
+subdirs("learning_launch")
 subdirs("geometry2/tf2_msgs")
 subdirs("geometry2/tf2")
 subdirs("geometry2/tf2_bullet")
